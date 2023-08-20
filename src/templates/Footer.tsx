@@ -6,7 +6,7 @@ import { Section } from '../layout/Section';
 import { Logo } from './Logo';
 
 const Footer = () => (
-  <Background color="bg-gray-100">
+  <Background color="bg-gray-800">
     <Section>
       <CenteredFooter
         logo={<Logo />}
@@ -56,20 +56,6 @@ const Footer = () => (
           </>
         }
       >
-        <li>
-          <Link href="/">Home</Link>
-        </li>
-        <li>
-          <Link href="/">About</Link>
-        </li>
-        <li>
-          <Link href="/">Docs</Link>
-        </li>
-        <li>
-          <Link href="https://github.com/ixartz/Next-JS-Landing-Page-Starter-Template">
-            GitHub
-          </Link>
-        </li>
       </CenteredFooter>
     </Section>
   </Background>
